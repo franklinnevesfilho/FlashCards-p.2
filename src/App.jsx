@@ -6,107 +6,107 @@ function App() {
     const cocktails = [
         {
             name: 'Margarita',
-            ingredients: 'tequila , lime juice , triple sec',
+            ingredients: ['Tequila', 'Triple Sec', 'Lime Juice'],
             difficulty: 'easy'
         },
         {
             name: 'Martini',
-            ingredients: 'gin , dry vermouth',
+            ingredients: ['Gin', 'Dry Vermouth'],
             difficulty: 'hard'
         },
         {
             name: 'Old Fashioned',
-            ingredients: 'whiskey , bitters , sugar',
+            ingredients: ['Whiskey', 'Angostura Bitters', 'Sugar'],
             difficulty: 'medium'
         },
         {
             name: 'Mojito',
-            ingredients: 'white rum , lime juice , mint , simple syrup , sprite/soda water',
+            ingredients: ['White rum', 'Lime juice', 'Mint', 'Sprite / Soda Water', 'Simple Sugar'],
             difficulty: 'easy'
         },
         {
             name: 'Moscow Mule',
-            ingredients: 'vodka , lime juice , ginger beer',
+            ingredients: ['Vodka', 'Lime Juice', 'Ginger Beer', 'Mint', 'Simple Sugar'],
             difficulty: 'easy'
         },
         {
             name: 'Manhattan',
-            ingredients: 'whiskey , sweet vermouth , bitters',
+            ingredients: ['Whiskey', 'Sweet Vermouth', 'Angostura Bitters'],
             difficulty: 'hard'
         },
         {
             name: 'Daiquiri',
-            ingredients: 'white rum , lime juice , simple syrup',
-            difficulty: 'easy'
+            ingredients: ['White rum', 'Lime juice', 'Simple Syrup'],
+            difficulty: 'medium'
         },
         {
             name: 'Whiskey Sour',
-            ingredients: 'whiskey , lemon juice , simple syrup',
-            difficulty: 'easy'
-        },
-        {
-            name: 'Negroni',
-            ingredients: 'gin , campari , sweet vermouth',
+            ingredients: ['Whiskey', 'Lime juice', 'Egg White','Simple Syrup'],
             difficulty: 'hard'
         },
         {
+            name: 'Negroni',
+            ingredients: ['Gin', 'Campari', 'Sweet Vermouth'],
+            difficulty: 'medium'
+        },
+        {
             name: 'Tom Collins',
-            ingredients: 'gin , lemon juice , simple syrup , soda water',
+            ingredients: ['Gin', 'Lemon Juice', 'Simple Syrup', 'Soda Water'],
             difficulty: 'easy'
         },
         {
             name: 'Mint Julep',
-            ingredients: 'bourbon , mint , simple syrup',
+            ingredients: ['Bourbon', 'Mint', 'Simple Syrup'],
             difficulty: 'medium'
         },
         {
             name: 'White Russian',
-            ingredients: 'vodka , coffee liqueur , cream',
+            ingredients: ['Vodka', 'Coffee Liqueur', 'Cream'],
             difficulty: 'easy'
         },
         {
             name: 'Bloody Mary',
-            ingredients: 'vodka , tomato juice , lemon juice , worcestershire sauce , tabasco , salt , pepper',
+            ingredients: ['Vodka', 'Tomato Juice', 'Hot Sauce', 'Horseradish', 'Lime Juice'],
             difficulty: 'hard'
         },
         {
             name: 'Pina Colada',
-            ingredients: 'white rum , coconut cream , pineapple juice',
+            ingredients: ['White Rum', 'Pineapple Juice', 'Coconut Cream'],
             difficulty: 'easy'
         },
         {
             name: 'Cosmopolitan',
-            ingredients: 'vodka , triple sec , cranberry juice , lime juice',
+            ingredients: ['Vodka', 'Triple Sec', 'Lime Juice', 'Cranberry Juice'],
             difficulty: 'hard'
         },
         {
             name: 'Sazerac',
-            ingredients: 'whiskey , absinthe , bitters , sugar',
+            ingredients: ['Whiskey', 'Absinthe', 'Angostura Bitters', 'Sugar'],
             difficulty: 'hard'
         },
         {
             name: 'Sidecar',
-            ingredients: 'cognac , triple sec , lemon juice',
+            ingredients: ['Cognac', 'Triple Sec', 'Lemon Juice'],
             difficulty: 'medium'
         },
         {
             name: 'French 75',
-            ingredients: 'gin , lemon juice , simple syrup , champagne',
+            ingredients: ['Gin', 'Champagne', 'Lemon Juice', 'Simple Syrup'],
             difficulty: 'medium'
         },
         {
             name: 'Gimlet',
-            ingredients: 'gin , lime juice , simple syrup',
-            difficulty: 'easy'
+            ingredients: ['Gin', 'Lime Juice', 'Simple Syrup'],
+            difficulty: 'medium'
         },
         {
             name: 'Mimosa',
-            ingredients: 'champagne , orange juice',
+            ingredients:['Champagne', 'Orange Juice'],
             difficulty: 'easy'
         }
     ]
     const [current, setCurr] = useState(0);
-    const [previous, setPrev] = useState(0);
+    const [previous, setPrevious] = useState(0);
     const [currentCocktail, setCocktail] = useState(cocktails[current]);
 
     const numCocktails = () => {
@@ -117,14 +117,14 @@ function App() {
         while (rand === current) {
             rand = Math.floor(Math.random() * numCocktails());
         }
-        setCurr(previous);
-        setPrev(current);
+        setPrevious(current);
+        setCurr(rand);
         setCocktail(cocktails[rand]);
     }
     const goBack = () => {
-        setCurr(previous);
-        setPrev(current);
         setCocktail(cocktails[previous]);
+        setPrevious(current);
+        setCurr(previous);
     }
 
   return (

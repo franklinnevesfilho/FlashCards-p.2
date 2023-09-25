@@ -12,11 +12,15 @@ function Flashcard({cocktail}) {
     return (
         <div className={`flashcard ${flip ? 'flipped' : ''}`} onClick={flipCard}>
             <div className={"card-inner"}>
-                <div className={"card-front " + cocktail.difficulty}>
+                <div className={`card-front ${cocktail.difficulty}`}>
                     <h2>{cocktail.name}</h2>
                 </div>
-                <div className={"card-back " + cocktail.difficulty}>
-                    <h2>{cocktail.ingredients}</h2>
+                <div className={"card-back"}>
+                    <ul>
+                        {cocktail.ingredients.map((ingredient, i) => {
+                            return <li className={'list-item'} key={i}>{ingredient}</li>
+                        })}
+                    </ul>
                 </div>
             </div>
         </div>

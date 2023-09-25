@@ -79,3 +79,7 @@
     align-items: center;
     margin: 1em;
 }
+.list-item{
+    font-size: 2em;
+    text-align: left;
+}

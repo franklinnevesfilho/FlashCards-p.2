@@ -1,5 +1,4 @@
-# *Popular Cocktails around the world*
-
+# *Popular Cocktails*
 Submitted by: **Franklin Neves Filho**
 
 **This web app contains about 20 flashcards about the most popular drinks throughout american bars. You can test your skills and see if you can remember them like a real bartender!**
@@ -24,12 +23,14 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [X] A back button to go back to the previously seen card
+* [X] A flip animation when the card is clicked
+* [X] Dynamically adding list of ingredients to the card
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./src/assets/PopularCocktails.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ...  
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -37,7 +38,8 @@ GIF created with ...
 ## Notes
 
 I had somewhat of a difficulty figuring out the back button as I was unsure how to properly use the useState and props feature.
-Also to implement the flip animation in css, was new to me and very interesting to learn.
+
+Also, to implement the flip animation in css, was new to me and very interesting to learn.
 
 ## License
 
