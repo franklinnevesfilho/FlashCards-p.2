@@ -77,9 +77,32 @@
     display: flex;
     justify-content: right;
     align-items: center;
-    margin: 1em;
+    margin-top: auto;
+    padding: 0;
+
 }
 .list-item{
     font-size: 2em;
     text-align: left;
+}
+
+.input{
+    margin: 0.3em;
+    padding: 0.3em;
+    border-radius: 0.3em;
+    border: 2px solid transparent;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #343434;
+    color: #fff;
+    transition: border-color 0.25s;
+
+}
+
+.wrong{
+    background-color: #9d0e0e;
+}
+.correct{
+    background-color: #166e16;
 }

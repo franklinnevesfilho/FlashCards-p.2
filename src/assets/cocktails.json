@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Margarita",
+    "ingredients": ["Tequila", "Triple Sec", "Lime Juice"],
+    "difficulty": "easy"
+  },
+  {
+    "name": "Martini",
+    "ingredients": ["gin", "Dry Vermouth"],
+    "difficulty": "hard"
+  },
+  {
+    "name": "Old Fashioned",
+    "ingredients": ["Whiskey", "Angostura Bitters", "Sugar"],
+    "difficulty": "medium"
+  },
+  {
+    "name": "Mojito",
+    "ingredients": ["White rum", "Lime juice", "Mint", "Sprite / Soda Water", "Simple Sugar"],
+    "difficulty": "easy"
+  },
+  {
+    "name": "Moscow Mule",
+    "ingredients": ["Vodka", "Lime Juice", "Ginger Beer", "Mint", "Simple Sugar"],
+    "difficulty": "easy"
+  },
+  {
+    "name": "Manhattan",
+    "ingredients": ["Whiskey", "Sweet Vermouth", "Angostura Bitters"],
+    "difficulty": "hard"
+  },
+  {
+    "name": "Daiquiri",
+    "ingredients": [
+      "White rum",
+      "Lime juice",
+      "Simple Syrup"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "name": "Whiskey Sour",
+    "ingredients": ["Whiskey", "Lime juice", "Egg White","Simple Syrup"],
+    "difficulty": "hard"
+  },
+  {
+    "name": "Negroni",
+    "ingredients": ["Gin", "Campari", "Sweet Vermouth"],
+    "difficulty": "medium"
+  },
+  {
+    "name": "Tom Collins",
+    "ingredients": ["Gin", "Lemon Juice", "Simple Syrup", "Soda Water"],
+    "difficulty": "easy"
+  },
+  {
+    "name": "Mint Julep",
+    "ingredients": ["Bourbon", "Mint", "Simple Syrup"],
+    "difficulty": "medium"
+  },
+  {
+    "name": "White Russian",
+    "ingredients": ["Vodka", "Coffee Liqueur", "Cream"],
+    "difficulty": "easy"
+  },
+  {
+    "name": "Bloody Mary",
+    "ingredients": ["Vodka", "Tomato Juice", "Tabasco", "Lemon Juice"],
+    "difficulty": "hard"
+  },
+  {
+    "name": "Pina Colada",
+    "ingredients": ["White rum", "Coconut Cream", "Pineapple Juice"],
+    "difficulty": "easy"
+  },
+  {
+    "name": "Cosmopolitan",
+    "ingredients": ["Vodka", "Triple Sec", "Lime Juice", "Cranberry Juice"],
+    "difficulty": "hard"
+  },
+  {
+    "name": "Sazerac",
+    "ingredients": ["Rye Whiskey", "Absinthe", "Peychaud's Bitters", "Sugar"],
+    "difficulty": "hard"
+  },
+  {
+    "name": "Sidecar",
+    "ingredients": ["Cognac", "Triple Sec", "Lemon Juice"],
+    "difficulty": "medium"
+  },
+  {
+    "name": "French 75",
+    "ingredients": ["Gin", "Champagne", "Lemon Juice", "Simple Syrup"],
+    "difficulty": "medium"
+  },
+  {
+    "name": "Gimlet",
+    "ingredients": ["Gin", "Lime Juice", "Simple Syrup"],
+    "difficulty": "medium"
+  },
+  {
+    "name": "Mimosa",
+    "ingredients":["Champagne", "Orange Juice"],
+    "difficulty": "easy"
+  }
+]
