@@ -64,6 +64,16 @@
     background-color: #fff;
     color: #000;
 }
+
+.btn-submit{
+    background-color: rgba(3, 255, 3, 0.11);
+    color: #fff;
+}
+.btn-submit:hover{
+    background-color: rgba(3, 255, 3, 0.5);
+    color: #000;
+}
+
 .easy{
     background-color: #166e16;
 }
@@ -97,7 +107,6 @@
     background-color: #343434;
     color: #fff;
     transition: border-color 0.25s;
-
 }
 
 .wrong{
