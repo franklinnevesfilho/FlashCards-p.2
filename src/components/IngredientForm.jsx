@@ -48,7 +48,7 @@ const IngredientForm = ({ingredients}) => {
                         )
                     })}
                 </div>
-                <button onClick={validateAnswers}>Submit</button>
+                <button className={'btn'} onClick={validateAnswers}>Submit</button>
             </form>
         </div>
     );
