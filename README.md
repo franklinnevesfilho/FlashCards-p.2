@@ -30,19 +30,15 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
 <!-- Replace this with whatever GIF tool you used! -->
+<img src='https://i.imgur.com/aT0Y3IO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 GIF created with ...
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I would have preferred to use a different method to check the answer, in a more dynamic way. But the requirements asked to use a submit button.
 
 ## License
 
